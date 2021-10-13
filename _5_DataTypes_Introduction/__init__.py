@@ -1,0 +1,15 @@
+a=10
+print(type(a))
+print(id(a))
+b=str(a)
+print(type(b))
+l=[]
+tup=1,2,3
+tup1=(1,)
+tup2=(1,2,3)
+print(tup,tup1,tup2)
+set=set()
+set1={1,2}
+print(set,set1)
+dict={}
+print(type(dict))
