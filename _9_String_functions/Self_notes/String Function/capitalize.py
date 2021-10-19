@@ -1,0 +1,20 @@
+print('******String function*******')
+print('program showing all string methods All string methods returns new values but do not change the original string')
+print('---------------------------------------------------------------------------------------------')
+print('1--capitalize():--	Converts the first character to upper case')
+s1 = 'bhaskar turkar'
+s2 = 'BHASKAR TURKAR'
+s3 = 'Bhaskar Turkar'
+s1.capitalize()
+s2.capitalize()
+s3.capitalize()
+print(s1)
+print(s2)
+print(s3)
+s1 = s1.capitalize()
+s2 = s2.capitalize()
+s3 = s3.capitalize()
+print('After capitalized and assign :', s1)
+print('After capitalized and assign :', s2)
+print('After capitalized and assign :', s3)
+print('---------------------------------------------------------------------------------------------')
